@@ -28,7 +28,7 @@ jobs:
     - name: Install deps and build
       run: |
         npm i
-        npm run build
+        npm start
     # When the dist_dir is ready, deploy it to neocities
     # Here we deploy the folder named `public`
     - name: Deploy to neocities
